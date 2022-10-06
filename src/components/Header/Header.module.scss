@@ -1,0 +1,94 @@
+.wrapper{
+    background-color:black;
+    height: 185px;
+    .header-inner{
+        max-width: 1110px;
+        margin: 0 auto;
+        height: 100%;
+        color: white;
+    .logo{
+        user-select: none;
+    }
+    .center{
+        width: 604px;
+    }
+    .inputfield{
+        height: 36px;
+        width: 456px;
+        border: 3px solid rgba(243, 151, 18, 1);
+        color: rgba(133, 129, 129, 1);
+        font-weight: 400;
+        padding: 0 0 0 12px;
+        border-radius: 3px 0 0 3px;
+
+    }
+    .search-btn{
+        padding: 0;
+        border: none;
+        width: 45px;
+        height: 36px;
+        background-color: rgba(243, 151, 18, 1);
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        cursor: pointer;
+    }
+    .selection{
+        height: 34px;
+        width: 131px;
+        border: 1px solid rgba(133, 129, 129, 1);
+        color: rgba(133, 129, 129, 1);
+        font-weight: 400;
+        padding: 0 0 0 6px;
+        border-radius: 0 3px 3px 0;
+    }
+    nav{
+        width: 100%;
+    .navigation{
+        font-size: 14px;
+        width: 100%;
+        li{
+            transition: all .4s ease;
+        }
+        li:hover{
+            color: rgba(243, 151, 18, 1);
+        }
+      
+    }}
+    .color-hover{
+        transition: all .4s ease;
+    }
+    .cart-svg{
+        height: 40px;
+        width: 40px;
+        fill: white;
+        transition: all .1s ease;
+        user-select: none;
+    }
+    .color-hover:hover, .color-hover:hover .cart-svg {
+        color: rgba(243, 151, 18, 1);
+        fill: rgba(243, 151, 18, 1);
+        cursor: pointer;
+}
+    .user-svg{
+        height: 40px;
+        width: 40px;
+        stroke: white;
+        transition: all .4s ease;
+        user-select: none;
+    }
+    .user-svg:hover{
+        stroke: rgba(243, 151, 18, 1);
+        cursor: pointer;
+    }
+    .right{
+        font-size: 12px;
+        font-weight: 400;
+        min-width: 213px;
+        height: 40px;
+    }
+    .info{
+        text-align: end;
+        min-width: 52px;
+        margin-left: 5px;
+    }
+} }

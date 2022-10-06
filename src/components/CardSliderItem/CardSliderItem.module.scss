@@ -1,0 +1,40 @@
+.card-wrapper{
+    width: 275px;
+    border-left:1px solid rgba(133, 129, 129, 0.5) ;
+    border-right: 1px solid rgba(133, 129, 129, 0.5);
+    box-sizing: border-box;
+    padding-top: 28px;
+    padding-bottom: 4px;
+    transition: all .1s ease;
+    .card-inner{
+    margin: 0 31.75px;
+    width: 211px;
+    .item-img{
+        height: 232px;
+        width: 211px;
+        border-radius: 5px;
+    }
+    .item-name{
+        margin: 0;
+        color: rgba(133, 129, 129, 1);
+        font-size: 13px;
+        font-weight: 400;
+        transition: all .1s ease;
+    }
+    .item-name:hover{
+        color: rgba(243, 151, 18, 1);
+        text-decoration: underline;
+    }
+    .item-price{
+        font-size: 28px;
+        color: black;
+        font-weight: 500;
+    }
+
+}}
+.card-wrapper:hover{
+    border: 1px solid rgba(133, 129, 129, 1);
+    border-radius: 10px;
+    padding-top: 38px;
+    padding-bottom: 13px;
+}

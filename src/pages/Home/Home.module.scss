@@ -1,0 +1,31 @@
+.wrapper{
+    width: 1110px;
+    margin: 30px auto;
+    .category-slider{
+        text-align: center;
+        max-width: 403px;
+        font-size: 36px;
+        color: black;
+        font-weight: 700;
+        margin: 30px auto 10px auto;
+    }
+}
+.brand-banner-wrapper{
+    height: 300px;
+    background-color: black;
+    color: white;
+    .brand-banner{
+        margin: 0 auto;
+        width: 1110px;
+        div{
+            font-family: 'Roboto Slab', system-ui;
+            font-weight: 700;
+            font-size: 57px;
+            margin: 0 10px;
+            transition: all .4s ease;
+            &:hover{
+                text-shadow: 0 0 10px rgba(243, 151, 18, 1),0 0 20px rgba(243, 151, 18, 1),0 0 30px rgba(243, 151, 18, 1),0 0 40px rgba(243, 151, 18, 1);
+            }
+        }
+    }
+}

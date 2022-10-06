@@ -1,0 +1,74 @@
+.wrapper{
+    height: 380px;
+    background-color: black;
+    color: rgba(133, 129, 129, 1);
+    .footer-inner{
+        max-width: 1110px;
+        margin: 0 auto;
+        height: 358px;
+        .logo{
+            user-select: none;
+        }
+        .notif-text{
+            color: white;
+            font-weight: 500;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .email-input{
+            font-weight: 300;
+            border: 1px solid rgba(133, 129, 129, 1);
+            border-radius:  3px 0 0 3px ;
+            border-right: none ;
+            padding-left: 6px;
+            font-size: 18px;
+            height: 36px;
+            width: 243px;
+        }
+        .send-btn{
+            height: 36px;
+            width: 50px;
+            background-color: white;
+            border: 1px solid rgba(133, 129, 129, 1);
+            border-radius:  0 3px 3px 0;
+            border-left: none;
+            cursor: pointer;
+        }
+        .h-text{
+            color: white;
+            font-weight: 700;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .info-text{
+            margin-bottom: 10px;
+            font-weight: 700;
+            font-size: 18px;
+            transition: all .4s ease;
+        }
+        .location-text:hover{
+            color: white;
+            cursor: pointer;
+
+        }
+        .info-text:hover{
+            color: white;
+            cursor: pointer;
+        }
+        .inst-block{
+            height: 276px;
+            width: 300px;
+            border: 0;
+            user-select: none;
+        }
+
+    }
+    .pluto{
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 auto;
+        max-width: 425px;
+    }
+  
+}

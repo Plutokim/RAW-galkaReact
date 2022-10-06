@@ -1,0 +1,37 @@
+.slider{
+    position: relative;
+    width: 1110px;
+    height: 410px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    .sliderline{
+        transition: translate;
+        transition-property: transform;
+        // transition-duration: 400ms;
+        transition-timing-function: ease-in-out;
+    }
+    .left-btn, .right-btn{
+        width: 15px;
+        height: 26px;
+        background: transparent;
+        padding: 0;
+        border: none;
+        top: 192px;
+        position: absolute;
+        cursor: pointer;
+        svg {width: 15px;
+        height: 26px;
+        stroke: white;}
+    }
+    .left-btn:hover svg, .right-btn:hover svg{
+            stroke: rgba(243, 151, 18, 1);
+    }
+    .left-btn{
+        left:10px;
+    }
+    .right-btn{
+        right: 10px;
+    }
+
+}

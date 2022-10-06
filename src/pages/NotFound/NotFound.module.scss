@@ -1,0 +1,32 @@
+.wrapper{
+    width: 1110px;
+    margin: 30px auto;
+    .error404{
+        color: rgba(243, 151, 18, 1);
+        font-weight: 400;
+        font-size: 64px;
+    }
+    .page-n-found{
+        font-size: 48px;
+        font-weight: 400;
+    }
+    .wrong-adress-txt{
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .main-btn{
+        background-color: rgba(243, 151, 18, 1);
+        border-radius: 10px;
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+        max-width: 382px;
+        height: 50px;
+    }
+    .category-slider{
+        font-weight: 400;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+}
